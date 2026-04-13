@@ -1,0 +1,8 @@
+POST http://localhost:8080/artinus/subscription/subscribe
+Content-Type: application/json
+
+{
+  "phoneNumber": "010-1111-2222",
+  "channelId": 1,
+  "targetStatus": "PREMIUM"
+}
