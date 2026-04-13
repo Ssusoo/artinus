@@ -132,3 +132,4 @@
 - 안내 드린 마감일 전까지 github public repository URL을 아래 메일로 회신 부탁드립니다.
   - 메일: recruit@artinus.dev# artinus
 # artinus
+# artinus
