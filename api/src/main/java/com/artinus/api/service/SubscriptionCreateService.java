@@ -1,5 +1,6 @@
-package com.artinus.api.global.client;
+package com.artinus.api.service;
 
+import com.artinus.api.global.client.CsrngClient;
 import com.artinus.api.global.client.exception.ClientException;
 import com.artinus.core.domain.channel.Channel;
 import com.artinus.core.domain.history.SubscriptionActionType;
@@ -19,8 +20,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class SubscriptionCommandService {
-
+public class SubscriptionCreateService {
     private final MemberRepository memberRepository;
     private final ChannelRepository channelRepository;
     private final SubscriptionRepository subscriptionRepository;

@@ -1,4 +1,7 @@
 package com.artinus.core.exception;
 
-public class SubscritionException {
+public class SubscriptionException extends RuntimeException {
+    public SubscriptionException(String message) {
+        super(message);
+    }
 }

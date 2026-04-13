@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/2603_be_recurit.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/2603_be_recurit.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/2603_be_recurit.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/2603_be_recurit.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/com.artinus.2603_be_recurit.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/com.artinus.2603_be_recurit.core.main.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-package com.artinus.api.client;
+package com.artinus.api.global.client.exception;
 
 public class CsrngClientException extends RuntimeException {
     public CsrngClientException(String message) {

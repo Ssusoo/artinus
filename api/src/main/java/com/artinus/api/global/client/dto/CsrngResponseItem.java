@@ -1,4 +1,4 @@
-package com.artinus.api.client;
+package com.artinus.api.global.client.dto;
 
 public record CsrngResponseItem(
         String status,

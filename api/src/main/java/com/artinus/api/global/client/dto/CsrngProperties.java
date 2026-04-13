@@ -1,4 +1,4 @@
-package com.artinus.api.client;
+package com.artinus.api.global.client.dto;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

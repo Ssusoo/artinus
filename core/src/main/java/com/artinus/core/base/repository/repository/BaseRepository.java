@@ -1,4 +1,4 @@
-package com.me.frankit.base.repository;
+package com.artinus.core.base.repository.repository;
 
 import com.querydsl.core.types.EntityPath;
 import com.querydsl.core.types.Expression;

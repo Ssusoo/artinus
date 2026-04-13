@@ -1,5 +1,9 @@
-package com.artinus.api.client;
+package com.artinus.api.global.client;
 
+import com.artinus.api.global.client.dto.CsrngProperties;
+import com.artinus.api.global.client.dto.CsrngResponseItem;
+import com.artinus.api.global.client.exception.CsrngClientException;
+import com.artinus.api.global.client.exception.ExternalApiUnavailableException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.ParameterizedTypeReference;
@@ -29,7 +33,7 @@ public class CsrngClient {
                 return random;
 
             } catch (ResourceAccessException e) {
-                log.warn("csrng 호출 중 타임아웃 또는 네트워크 오류 발생했습니다.. attempt={}/{}", attempt, properties.maxRetries() + 1, e);
+                log.warn("csrng 호출 중 타임아웃 또는 네트워크 오류 발생했습니다. attempt={}/{}", attempt, properties.maxRetries() + 1, e);
                 lastException = new ExternalApiUnavailableException("외부 구독 검증 API 호출 중 타임아웃 또는 네트워크 오류가 발생했습니다.", e);
 
             } catch (RestClientException e) {
@@ -42,7 +46,6 @@ public class CsrngClient {
                 sleep(properties.retryDelayMs());
             }
         }
-
         throw lastException;
     }
 

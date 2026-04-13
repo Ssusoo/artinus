@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: api
+
+subscription:
+  csrng:
+    base-url: https://csrng.net
+    connect-timeout-ms: 1000
+    read-timeout-ms: 1500
+    max-retries: 2
+    retry-delay-ms: 200

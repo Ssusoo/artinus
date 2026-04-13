@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "name": "subscription.csrng",
+      "type": "com.artinus.api.global.client.dto.CsrngProperties",
+      "sourceType": "com.artinus.api.global.client.dto.CsrngProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "subscription.csrng.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.artinus.api.global.client.dto.CsrngProperties"
+    },
+    {
+      "name": "subscription.csrng.connect-timeout-ms",
+      "type": "java.lang.Integer",
+      "sourceType": "com.artinus.api.global.client.dto.CsrngProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "subscription.csrng.max-retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.artinus.api.global.client.dto.CsrngProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "subscription.csrng.read-timeout-ms",
+      "type": "java.lang.Integer",
+      "sourceType": "com.artinus.api.global.client.dto.CsrngProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "subscription.csrng.retry-delay-ms",
+      "type": "java.lang.Long",
+      "sourceType": "com.artinus.api.global.client.dto.CsrngProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

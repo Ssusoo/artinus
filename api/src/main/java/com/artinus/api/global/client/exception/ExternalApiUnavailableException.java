@@ -1,4 +1,4 @@
-package com.artinus.api.client;
+package com.artinus.api.global.client.exception;
 
 public class ExternalApiUnavailableException extends RuntimeException {
     public ExternalApiUnavailableException(String message) {
